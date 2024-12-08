@@ -9,7 +9,8 @@ Flutter全系列基础示例低障碍工程
 
 | 名称 | id | 版本　|主要适配范围 |
 | ---- | ---- | ----|----|
-|常见组件嵌套多页面交互<br/>读写改查，缺结合sqlite3操作|morepages|1.0|≈ Flutter 3.24.5 <br/>≈ Dart 3.5.4 <br/>≈ gradle 8.6|
+| 第一个应用 |tfone | 1.0 | ≈ Flutter 3.24.5 <br/>≈ Dart 3.5.4 <br/>≈ gradle 8.6 <br/>≈ Android SDK 35.0.0<br/>≈ ndk 28.0.12674087|
+|常见组件嵌套多页面交互<br/>读写改查，结合sqlite3操作|morepages|1.0|≈ Flutter 3.24.5 <br/>≈ Dart 3.5.4 <br/>≈ gradle 8.6<br/>≈ Android SDK 35.0.0<br/>≈ ndk 28.0.12674087|
 
 
 
