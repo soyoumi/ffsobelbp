@@ -1,5 +1,5 @@
 ## soigop-ffsbe
-soigop flutter全系列基础例子(低障碍工程)
+soigop低障碍工程，flutter全系列基础例子。
 
 这是soigop低障碍工程，通过flutter全系列基础例子来降低一定程度的障碍。
 
