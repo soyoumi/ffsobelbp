@@ -39,7 +39,10 @@ class MyHomePageState extends State<MyHomePage> {
       if (response.statusCode == HttpStatus.ok) {
         var json = await response.transform(utf8.decoder).join();
         print(json);
-        var data = jsonDecode(json);
+        var data = jsonDecode(json); //将文本解析成json对象
+        print('json对象：$data');
+        var data2 = jsonEncode(data); //将json对象转换成文本
+        print('json文本：$data2');
         result = data['origin'];
       } else {
         result = 'Error getting IP address:\nHttp status ${response.statusCode}';
@@ -80,3 +83,5 @@ class MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+// 例子来源：[w3cschool](https://www.w3cschool.cn/evilg/evilg-z8ui35tu.html)
